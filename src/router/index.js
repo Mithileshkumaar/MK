@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import Movie from '../views/movie.vue'
 import Series from '../views/series.vue'
 import live from '../views/live.vue'
+import push from '../views/push.vue'
 
 
 const routes = [
@@ -15,6 +16,12 @@ const routes = [
     path: '/series',
     name: 'Series',
     component: Series
+
+  },
+  {
+    path: '/push',
+    name: 'push',
+    component: push
 
   },
   {
