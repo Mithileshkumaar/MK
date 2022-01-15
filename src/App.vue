@@ -2,37 +2,36 @@
   <div id="nav">
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#FE8801; boder-radius:30px" >
   <div class="container-fluid">
+     <div class="container-fluid">
     
     <a class="navbar-brand" href="#" style="text-decoration: underline; text-decoration-color:034454">MK CINEMAS</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      
     <div class=" navbar" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><router-link to="">Home</router-link></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><router-link to="/about">About</router-link></a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+        
+        
+         <li class="nav-item">
+          <a class="nav-link" href="#"><router-link to="/">MOVIES</router-link></a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="#"><router-link to="/movie">Movie</router-link></a>
+          <a class="nav-link" href="#"><router-link to="/series">SERIES</router-link></a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="#"><router-link to="/series">series</router-link></a>
+          <a class="nav-link" href="#"><router-link to="/live">LIVE TV</router-link></a>
         </li>
+         
      
         </ul>
      
-       <input type="checkbox" style="height:30px;" >
-       <span class="check"></span>
-      <form class="d-flex">
+       <!-- <input type="checkbox" style="height:30px;" >
+       <span class="check"></span> -->
+      <!-- <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      </form> -->
     </div>
     </div>
-  
+  </div>
 </nav>
 
     <!-- 
