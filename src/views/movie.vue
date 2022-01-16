@@ -5,7 +5,7 @@
     <div class="row gy-3 pt-4" style="padding-left:40px; margin-right:30px " >
   
     <div class="col-6 col-sm-3" >
-     <div class="card" style="border:none;">
+     <div class="card card-hover" style="border:none;">
   <img src="../assets/1.jpg" class="card-img-top" alt="...">
   <div class="card-body" style="background-color:black">
     <h5 class="card-title" style="text-decoration: underline; text-decoration-color:034454">PUSHPA: THE RISE</h5>
