@@ -89,7 +89,12 @@ input[type="checkbox"]:checked ~ .check
 #navbar-item{
   align-self: right;
 }
-.card {
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+.card:hover {
+ 
+z-index: 1;
+box-shadow: 0px 8px 50px rgba(0, 0, 1, 1);
+
+ 
 }
+
 </style>
